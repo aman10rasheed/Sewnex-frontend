@@ -9,6 +9,8 @@ const Button = ({ size }) => {
     btnClass += " btn-sm";
   } else if (size === "lg") {
     btnClass += " btn-lg";
+  } else if (size === "md") {
+    btnClass += " btn-md ";
   }
 
   // Tailwind CSS styles
