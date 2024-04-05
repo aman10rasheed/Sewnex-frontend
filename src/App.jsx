@@ -7,9 +7,9 @@ function App() {
   return (
     <>
       <div className="text-blue-500">hai</div>
-      <Button size={"sm"} text="Button"/>
-      <Button size={"md"} text="Button"/>
-      <Button size={"lg"} text="Buttom"/>
+      <Button size={"sm"} text={"Button"} />
+      <Button size={"md"} text={"Button"} />
+      <Button size={"lg"} text={"Button"} />
     </>
   );
 }
