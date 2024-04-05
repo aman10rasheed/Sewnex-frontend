@@ -1,7 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
 import Button from "./components/Ui/Button";
 
 function App() {
@@ -9,8 +6,10 @@ function App() {
 
   return (
     <>
-    <div>hai</div>
-      <Button />
+      <div className="text-blue-500">hai</div>
+      <Button size={"md"}/>
+      <Button size={"lg"}/>
+      <Button size={"sm"}/>
     </>
   );
 }
